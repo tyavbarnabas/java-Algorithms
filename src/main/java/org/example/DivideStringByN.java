@@ -16,7 +16,8 @@ public class DivideStringByN {
 
         int count = 0;
 
-        int numCharsDividedByN = strLength/n;
+        int numOfCharsInStr = strLength/n;
+
 
         String[] equalArr = new String[n];
 
@@ -27,9 +28,9 @@ public class DivideStringByN {
 
         }else {
 
-            for(int i = 0; i < strLength; i= i + numCharsDividedByN){
+            for(int i = 0; i < strLength; i = i + numOfCharsInStr){
 
-                String part = newStr.substring(i, i + numCharsDividedByN);
+                String part = newStr.substring(i, i + numOfCharsInStr);
 
                 equalArr[count] = part;
 
@@ -38,9 +39,10 @@ public class DivideStringByN {
 
             }
 
-            System.out.println( n + "equal parts of string are ");
+            System.out.println( n + " equal parts of string are ");
 
             for(int i = 0; i < equalArr.length;i++){
+
                 System.out.println(equalArr[i]);
             }
 
