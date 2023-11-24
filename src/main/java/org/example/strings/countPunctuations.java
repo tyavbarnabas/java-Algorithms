@@ -1,4 +1,4 @@
-package org.example;
+package org.example.strings;
 
 public class countPunctuations {
     public static void main(String[] args) {

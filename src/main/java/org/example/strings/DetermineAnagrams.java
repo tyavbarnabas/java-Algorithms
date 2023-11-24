@@ -1,4 +1,4 @@
-package org.example;
+package org.example.strings;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
